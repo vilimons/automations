@@ -11,7 +11,7 @@ try:
     yag.send(to = "persontosendemail@gmail.com", cc = 'persontosendemail+user@gmail.com', bcc = 'persontosendemail+user2@gmail.com',
     subject = "Excel Automated Attachment File", contents = "<h2>Here's the automated excel file you asked for...<h2>", 
     attachments = r'C:\Users\Administrator\Desktop\projects\automations\excel-automation\pandas.xlsx')
-    print("Email sent successfuly!")
+    print("Email sent successfully!")
 
 except:
     print("Error, email not sent.")
